@@ -1,0 +1,35 @@
+{
+    "name": "final-project",
+    "version": "1.0.0",
+    "description": "last Project:preparing for production.",
+    "type": "module",
+    "source": "src/index.js",
+    "scripts": {
+        "gulp": "gulp",
+        "build": "parcel build",
+        "start": "parcel index.html",
+        "test": "mocha",
+        "cypress": "npx cypress run",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
+    "author": "Ruba Saleh",
+    "license": "MIT",
+    "devDependencies": {
+        "@eslint/js": "^9.38.0",
+        "chai": "^6.2.0",
+        "cypress": "^15.5.0",
+        "eslint": "^9.38.0",
+        "globals": "^16.4.0",
+        "gulp": "^5.0.1",
+        "gulp-cli": "^3.1.0",
+        "gulp-shell": "^0.8.0",
+        "mocha": "^11.7.4",
+        "parcel": "^2.16.0"
+    },
+    "prettier": {
+        "semi": true,
+        "tabWidth": 4,
+        "trailingComma": "all"
+    }
+}
