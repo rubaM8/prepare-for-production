@@ -3,12 +3,3 @@
 ### Description
 This project involves the development of a web application that showcases the implementation of various modern web technologies such as **npm**, **ESLint**, **Prettier**, **Gulp**, **Parcel**, **Mocha**, and **Cypress**. The primary objective was to create a robust application while employing best practices in coding standards, automated testing, and build processes.
 
-### Project Setup Instructions
-
-1. **Clone the Repository**
-   Clone the starter code from the designated repository.
-
-2. **Initialize npm**
-   Run the following command to initialize the project:
-   ```bash
-   npm init
